@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR API Test</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OCR API Test</h1>
+        <div class="form-group">
+            <label for="fileInput">Select an image or PDF file:</label>
+            <input type="file" id="fileInput" accept=".jpg,.jpeg,.png,.pdf">
+        </div>
+        <div class="form-group">
+            <button onclick="uploadFile()">Upload and Extract Text</button>
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
